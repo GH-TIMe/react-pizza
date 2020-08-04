@@ -16,8 +16,6 @@
  - React Router (библиотека для реализации переходов без перезагрузки страницы)
  - Axios (библиотека для отправки AJAX-запросов)
 
-Ссылка на исходник: https://github.com/Archakov06/react-pizza
-
 Ссылка на вёрстку: https://github.com/Archakov06/react-pizza-html
 
 Ссылка на дизайн: https://www.figma.com/file/wWUnQwvRDWBfPx1v1pCAfO/React-Pizza

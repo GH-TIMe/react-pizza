@@ -3,7 +3,7 @@
 :pizza: React Pizza - это интернет-магазин пицц.
 Приложение разработано на основе курса автора [Archakov06](https://github.com/Archakov06) и немного усовершенствовано.
 
-Демо приложения доступно по [ссылке](https://hk-database-react-pizza.herokuapp.com/).
+Демо приложения доступно по [ссылке](https://hk-time-react-pizzas.herokuapp.com/).
 
 ## :rocket: Доработки:
   - добавлено изменение цены в зависимости от размера

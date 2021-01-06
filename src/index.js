@@ -9,7 +9,7 @@ import "./scss/app.scss";
 import App from "./App";
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/react-pizza">
     <Provider store={store}>
       <App />
     </Provider>

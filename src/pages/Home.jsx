@@ -19,21 +19,24 @@ function Home() {
     })
   );
 
-  useEffect(() => dispatch(fetchPizzas(category, sortBy)), [category, sortBy]);
+  useEffect(() => dispatch(fetchPizzas(category, sortBy)), [
+    category,
+    sortBy,
+    dispatch,
+  ]);
 
   const onSelectCategory = React.useCallback(
     (index) => dispatch(setCategory(index)),
-    []
+    [dispatch]
   );
 
-  const onSelectSortBy = React.useCallback(
-    (obj) => dispatch(setSortBy(obj)),
-    []
-  );
+  const onSelectSortBy = React.useCallback((obj) => dispatch(setSortBy(obj)), [
+    dispatch,
+  ]);
 
   const handleAddPizzaToCart = React.useCallback(
     (obj) => dispatch(addPizzaToCart(obj)),
-    []
+    [dispatch]
   );
 
   return (
